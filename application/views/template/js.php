@@ -25,3 +25,8 @@
 <!-- AdminLTE App -->
 <script src="<?php echo base_url('assets/AdminLTE-2.0.5/dist/js/app.min.js') ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('assets/AdminLTE-2.0.5/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js') ?>" type="text/javascript"></script>
+<script type="text/javascript">
+	$('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+});
+</script>

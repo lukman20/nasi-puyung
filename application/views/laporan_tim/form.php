@@ -44,7 +44,7 @@ $this->load->view('template/sidebar');
                   </div>
                     <div class="form-group">
                       <label>Tanggal Laporan</label>
-                      <input type="text" name="tanggal_laporan" class="form-control" placeholder="Tanggal Laporan" value="<?= isset($data) ? $data->tanggal_laporan : ''  ?>" required>
+                      <input type="text" name="tanggal_laporan" class="form-control datepicker" placeholder="Tanggal Laporan" value="<?= isset($data) ? $data->tanggal_laporan : ''  ?>" required>
                     </div>
                     <div class="form-group">
                       <label>Jumlah PK yang di terima</label>
